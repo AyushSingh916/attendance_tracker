@@ -17,7 +17,7 @@ export default function RootLayout({
       <body
         className={`antialiased`}
       >
-        <Header />
+        <Header isLoggedIn={true}/>
         {children}
       </body>
     </html>
